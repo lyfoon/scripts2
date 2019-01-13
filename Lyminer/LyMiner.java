@@ -1,6 +1,3 @@
-package scripts.Lyminer;
-import org.tribot.api.General;
-import org.tribot.api2007.Login;
 
 import org.tribot.script.Script;
 import org.tribot.script.ScriptManifest;
