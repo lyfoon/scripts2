@@ -3,6 +3,7 @@ package scripts.Lyminer.Constants;
 
 import org.tribot.api2007.Skills;
 import java.util.HashSet;
+
 public enum oreTypes
 {
     CLAY(6705, 434,1),
@@ -19,7 +20,7 @@ public enum oreTypes
     private int color;
     private int itemId;
     private int requiredLevel;
-    private  HashSet<Integer> ids = new HashSet<Integer>();
+    public HashSet<Integer> ids = new HashSet<Integer>();
     //The ids hashset contains all of the found object ids for target rocks
 
     oreTypes(int color, int itemId, int requiredLevel)
