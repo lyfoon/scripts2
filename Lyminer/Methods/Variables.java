@@ -1,4 +1,3 @@
-package scripts.Lyminer.Methods;
 
 public interface Variables {
     public abstract void mine();

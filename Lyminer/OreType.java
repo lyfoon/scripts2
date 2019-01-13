@@ -3,11 +3,7 @@ import java.util.HashSet;
 
 import org.tribot.api2007.Skills;
 
-import java.util.HashSet;
-
-
-
-public enum oreTypes
+public enum OreType
 {
     CLAY(6705, 434,1),
     COPPER(4645, 436,1),
@@ -23,10 +19,10 @@ public enum oreTypes
     private int color;
     private int itemId;
     private int requiredLevel;
-    public HashSet<Integer> ids = new HashSet<Integer>();
+    private  HashSet<Integer> ids = new HashSet<Integer>();
     //The ids hashset contains all of the found object ids for target rocks
 
-    oreTypes(int color, int itemId, int requiredLevel)
+    OreType(int color, int itemId, int requiredLevel)
     {
         this.color = color;
         this.itemId = itemId;
